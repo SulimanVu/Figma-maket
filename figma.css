@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    font-family: 'Alef';
+}
+header{
+    margin: auto;
+    line-height: 100px;
+    width: 90%;
+    height: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: 'Homemade Apple';
+}
+.nav-top{
+    width: 30%;
+}
+.nav-top ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.regist{
+    border: 2px solid #F7941E;
+    color: #F7941E;
+    border: 1px solid;
+    height: 40px;
+    align-items: center;
+    background-color: #fff;
+}
+.regist:hover{
+    background-color:#FAFAFA;
+}
+.s-first{
+    width: 100%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.s-first .txt{
+    width: 50%;
+}
+.s-first .img{
+    width: 50%;
+}
+.s-first .img img{
+    width: 100%;
+}
+.s-first button{
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #F7941E;
+    border: 0;
+}
+.s-first button:hover{
+    background-color: rgb(236, 231, 231);
+    color: #F7941E;
+}
+.txt{
+    padding:0 100px;
+    box-sizing: border-box;
+}
+.txt h3{
+    font-size: 56px;
+}
+.txt p{
+    font-size: 20px;
+}
+
+
+
+.s-second{
+    flex-direction: row-reverse;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.s-second .txt-second{
+    width: 50%;
+}
+.s-second .txt-second{
+    width: 50%;
+}
+.img-second{
+    width: 50%;
+}
+.img-second img{
+    width: 100%;
+}
+.s-second button{
+    font-size: 18px;
+    color: #F7941E;
+    border: 2px solid #F7941E;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.s-second button:hover{
+    color: #fff;
+    background-color: #f7941e;
+}
+.txt-second{
+    padding:0 100px;
+    box-sizing: border-box;
+}
+.txt-second h3{
+    font-weight: normal;
+    font-size: 32px;
+}
+.txt-second p{
+    font-size: 20px;
+}
+
+
+
+.third-blocks{
+    margin: 0 auto;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+.txt-third{
+    margin-top: 90px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+h3{
+    font-size: 32px;
+    font-weight: normal;
+}
+p{
+    font-size: 18px;
+}
+.card{
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 436px;
+    margin-bottom: 137px;
+}
+.card:hover{
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.29);
+}
+.card p{
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+.card-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-txt p:last-child{
+    margin-top: 60px;
+}
+.card img{
+    width: 270px;
+    height: 270px;
+}
+.card-slide{
+    font-size: 14px;
+}
+.s-fourth{
+    display: flex;
+    height: 240px;
+    background-color: #F7941E;
+}
+.fourth-txt{
+    align-self: center;
+    width: 50%;
+}
+.buttons{
+    align-self: center;
+    text-align: center;
+    width: 50%;
+}
+.buttons button{
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+.buttons button:first-child{
+    background-color: black;
+    color: #fff;
+}
+.buttons button:first-child:hover{
+    background-color: #fff;
+    color: black;
+}
+.buttons button:last-child:hover{
+    background-color: black;
+    color: #fff;
+}
+.s-fourth p{
+    font-size: 32px;
+    text-align: center;
+}
+
+
+
+.fifth-main-txt{
+    text-align: center;
+}
+.card-fifth{
+    color: #fff;
+    background-color: #231F20;
+    margin: 0 auto 40px;
+    width: 85%;
+    height: 370px;
+    margin-top: 5%;
+    display: flex;
+}
+.fifth-txt{
+    height: 100%;
+    margin: auto;
+    margin-left: 5%;
+}
+.fifth-txt p:first-child{
+    font-size: 14px;
+    padding-top: 43px;
+    margin-bottom: 27px;
+}
+.fifth-txt p:last-child{
+    font-size: 18px;
+}
+.fifth-txt h3{
+    width: 492px;
+    font-size: 48px;
+    vertical-align: middle;
+    margin-bottom: 70px;
+}
+.bott-blocks{
+    margin: 0 auto;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+.bott-blocks div{
+    padding: 48px;
+    width: 48%;
+}
+.bott-blocks div h4{
+    font-weight: normal;
+    font-size: 24px;
+}
+.bott-blocks div:hover{
+    box-shadow: -10px 10px 10px rgb(168, 166, 166);
+}
+.bott-blocks div p:last-child{
+    padding-top: 16px;
+}
+
+footer{
+    text-align: center;
+}
+footer ul{
+    margin: 115px auto 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+footer hr{
+    margin-top: 43px;
+    width: 80%;
+}
+footer .logo{
+    color: #F7941E;
+    margin: 0 15%;
+}
+.media{
+    margin: 55px auto 73px;
+    display: flex;
+    width: 330px;
+    justify-content: space-between  ;
+}
